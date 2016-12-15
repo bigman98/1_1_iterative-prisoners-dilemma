@@ -375,9 +375,8 @@ def post_to_file(string, filename='tournament.txt', directory=''):
     # Create the file for the round-by-round results
     filehandle = open(filename,'w')
     filehandle.write(string)
- 
+#Jordan was here
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
-#Jordan was here
