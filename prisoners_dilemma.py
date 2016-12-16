@@ -96,7 +96,7 @@ def play_tournament(modules):
         scores[first_team_index][first_team_index] = 0
         moves[first_team_index][first_team_index] = ''
     return scores, moves
-#test comment by caitie#
+
 
 def play_iterative_rounds(player1, player2):
     '''
