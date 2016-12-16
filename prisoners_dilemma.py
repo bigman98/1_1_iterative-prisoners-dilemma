@@ -97,7 +97,7 @@ def play_tournament(modules):
         moves[first_team_index][first_team_index] = ''
     return scores, moves
 
-
+##test caitie h
 def play_iterative_rounds(player1, player2):
     '''
     Plays a random number of rounds (between 100 and 200 rounds) 
