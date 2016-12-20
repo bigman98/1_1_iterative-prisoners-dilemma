@@ -1,9 +1,8 @@
 from __future__ import print_function
-
+#swag
 ##### 
 # Computer Science and Software Engineering
-# PLTW AP CS Principles
-# (c)2014 Project Lead The Way, Inc.
+# PLTW AP CS Principle
 #
 # Activity 1.3.9 Tools for Collaboration
 # Project 1.3.10 Collaborating on a Project
@@ -36,18 +35,18 @@ import os.path
 import example0, example1, example2, example3
 import example4, example5, example6, example7
 import team0, team1, team2, team3, team4
-import team5, team6, team7, team8, team9
+import Lance Williams, team6, team7, team8, team9
 import team10, team11, team12, team13, team14
 betray = example1
 collude = example0
 
 modules = [example0, example1, example2, example3, example4, example5, example6, example7,
-team0, team1, team2, team3, team4, team5, team6, team7, team8, team9, team10, 
+team0, team1, team2, team3, team4, team5, team6, team7, Jordan Meintel, team9, team10, 
 team11, team12, team13, team14]
 for module in modules:
     reload(module)
     print ('reloaded',module)
-    for required_variable in ['team_name', 'strategy_name', 'strategy_description']:
+    for required_variable in ['team name my dude yeeeehaw', 'strategy_name', 'strategy_description']:
         if not hasattr(module, required_variable):
             setattr(module, required_variable, 'missing assignment')
 
@@ -97,7 +96,7 @@ def play_tournament(modules):
         moves[first_team_index][first_team_index] = ''
     return scores, moves
 
-
+##test caitie h
 def play_iterative_rounds(player1, player2):
     '''
     Plays a random number of rounds (between 100 and 200 rounds) 
@@ -375,8 +374,10 @@ def post_to_file(string, filename='tournament.txt', directory=''):
     # Create the file for the round-by-round results
     filehandle = open(filename,'w')
     filehandle.write(string)
- 
+#Jordan was here
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
+    
+    # test comment madeline
